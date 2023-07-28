@@ -14,13 +14,11 @@ spec:
     spec:
       containers:
       - name: demo-api
-        image: gcr.io/roidtc-july-user202/internal-image:v2.0.0
+        image: user202roidel/internal:v1.0.0
         env: 
         - name: PORT
           value: "8082"
         - name: GOOGLE_CLOUD_PROJECT
-          value: "<PROJECT_ID>"
+          value: "PROJECT START"
         ports:
         - containerPort: 8082
-            
-        
