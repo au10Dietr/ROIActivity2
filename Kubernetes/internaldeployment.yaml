@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-api
-        image: gcr.io/<project-id>/internal-image:v2.0.0
+        image: gcr.io/roidtc-july-user202/internal-image:v2.0.0
         env: 
         - name: PORT
           value: "8082"
